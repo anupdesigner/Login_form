@@ -1,0 +1,32 @@
+div,p,h1,h2,h3,body,tr,td{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   text-align: center;
+    font: "M";
+}
+
+#wrapper {
+    display: inline-block;
+    width: 783px;
+    height: 600px;
+    background-color: #eaeae2;
+}
+
+.main {
+   margin: auto;
+    width: 414px;
+    
+    background: #4a4a4a; /* Old browsers */
+background: -moz-linear-gradient(top, #4a4a4a 0%, #4a4a4a 76%, #c1c1c1 77%, #e6e6de 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4a4a4a 0%,#4a4a4a 76%,#c1c1c1 77%,#e6e6de 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4a4a4a 0%,#4a4a4a 76%,#c1c1c1 77%,#e6e6de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#e6e6de',GradientType=0 );/* IE6-9 */
+
+    margin-top: 63px;
+    border-radius: 7px;
+  
+}
+
